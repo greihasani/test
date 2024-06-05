@@ -1,0 +1,13 @@
+Krijojm nje folder si fillim dhe e emrtojem Responisive web pages,aty ne vendosim.
+-10 foto
+-hapim nje file html dhe nje css.
+Me pas krijojme strukturen e html .
+hapi nje tag div dhe emertojme Row aty do te vensosim brenda 4 kolonat qe do te berdorim per fotot.
+per te krijuar 4 kononat do te hapim edhe 4 tage div ku te katerte do te kene te njejten klase.
+I bejm upload fotove dhe container i par dhe i 3 do te jene me te njejtat foto dhe ne te njejtin rend dhe i 2 me te 4.
+
+
+Fillojm e me stilizimet :
+  grid-template-columns: repeat(4, auto); kur ekrani eshte i madh kam bere qe te krijohen 4 kolona dhe gjeresia e tyre eshte auto
+Me zvogelimin e ekranit kam zvogeluar edhe nr e kolonave psh max-width: 800px krijoj 2 kolona dhe max-width: 600px krijoj 1 kolone.
+Ne kete menyre kur ekrani te zvogelohet-zmadhohet fotot do te shfaqen responsive.
